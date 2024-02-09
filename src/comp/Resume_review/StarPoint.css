@@ -1,0 +1,98 @@
+
+
+
+.point-desc {
+    color: gray;
+    font-size: 23px;
+    padding: 20px 0;
+}
+
+
+
+
+/* mutli page */
+.multi-pages {
+    background-image: url('../../assets/mainpage1-bg.png');
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mutlipage-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.mutlipage-left p{
+    width: 69%;
+}
+
+.mutlipage-left h1 {
+    font-size: 3.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mutlipage-right {
+    width: 60%;   
+    mix-blend-mode: lighten;
+}
+
+.sub--multipages {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 0;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .pointer-cont {
+        grid-template-columns: 1fr;
+        gap: 1.5em;
+
+    }
+
+    .sub--multipages {
+        flex-direction: column;
+        padding-top: 2em;
+        gap: 2em;
+    }
+
+    .mutlipage-left h1 {
+        font-size: 30px;
+    }
+
+    .mutlipage-left p{
+        width: 100%;
+    }
+
+    .mutlipage-right {
+        width: 100%;
+    }
+
+    .mutlipage-left {
+        width: 100%;
+        gap: 1.1em;
+    }
+
+    .point {
+        padding: 10px;
+    }
+    .point-h1 {
+        font-size: 25px;
+        
+    }
+    .point-desc{
+        font-size: 18px;
+    }
+    .multi-img{
+        width: 100%;
+    }
+    
+
+}

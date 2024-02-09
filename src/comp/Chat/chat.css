@@ -1,0 +1,32 @@
+
+.chat-bot {
+  width: 50%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.chat-bot-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+
+
+.msg-sent {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  padding: 10px 20px;
+}
+
+.input-box {
+  margin: auto;
+  width: 100%;
+}
+
+.chat-field {
+  height: 92vh;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
