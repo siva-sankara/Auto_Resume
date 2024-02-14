@@ -3,6 +3,11 @@
     overflow: hidden;
     background-attachment: fixed;
 }
+.landingpage{
+background-color: #ffffff;
+/* background-image: linear-gradient(to right bottom, #221342, #341b54, #472467, #5c2c79, #73348b, #6c378c, #65398d, #5e3b8d, #3a3577, #1c2c5e, #052144, #001529); */
+background-image: linear-gradient(to right top, #051937, #004d7a,#8e4890, #008793, #00bf73bd );
+}
   
   #stars {
     width: 1px;
