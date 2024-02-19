@@ -22,16 +22,16 @@ export default function () {
             <div>
               <ul>
                 <li>
-                  <a href="">Home</a>
+                  <a href="#">Home</a>
                 </li>
                 <li>
-                  <a href="">About</a>
+                  <a href="#about">About</a>
                 </li>
                 <li>
-                  <a href="">TimeLine</a>
+                  <a href="#timeline">TimeLine</a>
                 </li>
                 <li>
-                  <a href="">Themes</a>
+                  <a href="#home-top">Themes</a>
                 </li>
               </ul>
             </div>

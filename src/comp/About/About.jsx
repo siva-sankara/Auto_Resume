@@ -10,7 +10,7 @@ export default function About() {
     }
     console.log(tabSwitch);
   return (
-   <div>
+   <div className='main-con' id="about">
     <h1 className='about-heading'>
     Tap into a central nervous system for all your content
     </h1>

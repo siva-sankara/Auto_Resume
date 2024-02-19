@@ -1,0 +1,27 @@
+.navbar-container{
+    background-color: #001529;
+    padding: 15px 20px;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.nav-sub{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item{
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.nav-item:hover{
+    color: rgb(224, 105, 20);
+}
+.nav-items{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    font-size: 20px;
+}

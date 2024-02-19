@@ -15,12 +15,16 @@ const TimeLine = ({ timelineRef }) => {
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
 
   return (
-    <div className="bg bg-black" style={{ backgroundRepeat: "repeat", borderBottomLeftRadius:"50px" , borderBottomRightRadius:"50px"}}>
+    // style={{ backgroundRepeat: "repeat" ,  backgroundImage: "linear-gradient(to right top, #001529, #002e45, #00495e, #006673, #008482, #008482, #008482, #008482, #006673, #00495e, #002e45, #001529 )"}}
+    <div id="timeline" className="bg  timeline-con">
       <style>
         {`
           /* Apply scale transformation on hover */
           .vertical-timeline::before{
             height : 95%;
+          }
+          .timeline-con{
+            
           }
           .outerpart{
             overflow:hidden;
@@ -35,7 +39,7 @@ const TimeLine = ({ timelineRef }) => {
             width: 500px;
             height: 500px;
             border-radius: 50%;
-            background-color: rgb(255, 230, 0);
+            // background-color:#001529;
             filter: blur(350px);
             z-index: 0;
             position: absolute;
@@ -47,7 +51,7 @@ const TimeLine = ({ timelineRef }) => {
             width: 500px;
             height: 500px;
             border-radius: 50%;
-            background-color: rgb(255, 230, 0);
+            // background-color: #001529;
             filter: blur(350px);
             z-index: 0;
             position: absolute;
@@ -57,10 +61,8 @@ const TimeLine = ({ timelineRef }) => {
           .VerticalTimeline
           {
             overflow: visible;
-            z-index: 1;
-            
-}
-            
+            z-index: 1;       
+          }
           }
           .vertical-timeline-element {
             transition: transform 0.3s ease-in-out;
@@ -68,8 +70,7 @@ const TimeLine = ({ timelineRef }) => {
             transform-origin: center bottom;
             transform: scale(1); /* Initial size, can be adjusted as needed */
             text-align:justify;
-            
-            
+ 
           }
           .vertical-timeline-element:hover {
             transform: scale(1.1); /* Larger size on hover, adjust the scale factor as needed */
@@ -102,7 +103,7 @@ const TimeLine = ({ timelineRef }) => {
               transition: 1s ease-in-out;
               .sub_title{
                 transform: scale(1.1);
-                color : rgb(255, 137, 245);
+                color : #001529;
                 font-weight: 500;
                 
               }
@@ -160,7 +161,7 @@ const TimeLine = ({ timelineRef }) => {
             width: 400px;
             height: 400px;
             border-radius: 50%;
-            background-color: rgb(73, 43, 226);
+            // background-color: rgb(73, 43, 226);
             filter: blur(300px);
             z-index: 10;
             position: absolute;
