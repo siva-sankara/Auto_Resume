@@ -11,7 +11,7 @@ const initialState = {
 
 
 const openai = new OpenAI({
-  apiKey: process.env.REACT_APP_API_KEY || "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",
+  apiKey:"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",
   dangerouslyAllowBrowser: true
    // This is also the default, can be omitted
 });
