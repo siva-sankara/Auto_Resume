@@ -1,9 +1,0 @@
-.render_3d {
-    /* background-image: linear-gradient(to top, #4A059B, #4A059B, #4A059B, #4A059B, #4A059B, #4A059B, #05000a, #110027, #210055, #0a002c, #140041, #000000); */
-    /* background-repeat: no-repeat; */
-    background: rgb(2,0,36);
-background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(95,4,201,1) 42%, rgba(74,5,155,1) 100%);
-    background-size: cover;
-    position: relative;
-
-}

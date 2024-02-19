@@ -6,10 +6,10 @@ import "./StarPoint.css"
 const Resume_review = () => {
   return (
     <div>
-      <div className="multi-pages" style={{height : "100vh",overflow : "hidden"}} >
+      <div className="multi-pages"  >
         <div className=" sub--multipages">
           <div className="mutlipage-left">
-            <div>
+            <div className="mutlipage-left-sub">
               <h1>Over 340</h1>
               <h1> Real-Life Resume </h1>
               <h1>Templates</h1>

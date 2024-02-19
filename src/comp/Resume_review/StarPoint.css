@@ -1,98 +1,118 @@
-
-
-
 .point-desc {
-    color: gray;
-    font-size: 23px;
-    padding: 20px 0;
+  /* color: gray; */
+  color: bal;
+  font-size: 23px;
+  padding: 20px 0;
 }
-
-
-
 
 /* mutli page */
 .multi-pages {
-    background-image: url('../../assets/mainpage1-bg.png');
-    background-size: cover;
-    object-fit: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  /* background-image: url('../../assets/mainpage1-bg.png'); */
+  /* background-image: linear-gradient(
+    to left top,
+    #001529,
+    #061e41,
+    #202557,
+    #40286a,
+    #642677,
+    #642677,
+    #642677,
+    #642677,
+    #40286a,
+    #202557,
+    #061e41,
+    #001529
+  ); */
+  /* background-image: linear-gradient(to right bottom, #001529, #002e45, #00495e, #006673, #704992bb, #b52faeaa,#9f169db9, #006673,#198484,#09444b ); */
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
 }
-.mutlipage-left{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-}
+.mutlipage-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:20px;
+  justify-content: center;
+  color: white;
 
-.mutlipage-left p{
-    width: 69%;
+  
+}
+.mutlipage-left-sub{
+    background: rgba( 255, 255, 255, 0.1 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: 20px;
+}
+.mutlipage-left p {
+  width: 69%;
 }
 
 .mutlipage-left h1 {
-    font-size: 3.2rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 3.2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .mutlipage-right {
-    width: 60%;   
-    mix-blend-mode: lighten;
+  width: 60%;
+  mix-blend-mode: lighten;
 }
 
 .sub--multipages {
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    padding-bottom: 0;
-    justify-content: space-between;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  gap: 50px;
+  padding-bottom: 0;
+  justify-content: space-between;
 }
 
-
 @media only screen and (max-width: 768px) {
-    .pointer-cont {
-        grid-template-columns: 1fr;
-        gap: 1.5em;
+  .pointer-cont {
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+  }
 
-    }
+  .sub--multipages {
+    flex-direction: column;
+    padding-top: 2em;
+    gap: 2em;
+  }
 
-    .sub--multipages {
-        flex-direction: column;
-        padding-top: 2em;
-        gap: 2em;
-    }
+  .mutlipage-left h1 {
+    font-size: 30px;
+  }
 
-    .mutlipage-left h1 {
-        font-size: 30px;
-    }
+  .mutlipage-left p {
+    width: 100%;
+  }
 
-    .mutlipage-left p{
-        width: 100%;
-    }
+  .mutlipage-right {
+    width: 100%;
+  }
 
-    .mutlipage-right {
-        width: 100%;
-    }
+  .mutlipage-left {
+    width: 100%;
+    gap: 1.1em;
+  }
 
-    .mutlipage-left {
-        width: 100%;
-        gap: 1.1em;
-    }
-
-    .point {
-        padding: 10px;
-    }
-    .point-h1 {
-        font-size: 25px;
-        
-    }
-    .point-desc{
-        font-size: 18px;
-    }
-    .multi-img{
-        width: 100%;
-    }
-    
-
+  .point {
+    padding: 10px;
+  }
+  .point-h1 {
+    font-size: 25px;
+  }
+  .point-desc {
+    font-size: 18px;
+  }
+  .multi-img {
+    width: 100%;
+  }
 }

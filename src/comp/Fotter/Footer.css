@@ -7,7 +7,7 @@
 .footer-main{
     display: flex;
     margin: auto;
-    height: 35vh;
+    height: auto;
     width: 100%;
     padding: 30px 50px ;
     justify-content: space-between;
